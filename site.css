@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    height: 100%;
+    width: 85%;
+}
+
+.custom-cont{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+#img{
+    background: url('/img/cordillerabg.jpg');
+    background-size: cover;
+    height: 95%;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#img-2{
+    background: url('/img/altavistabg.jpg');
+    background-size: cover;
+    height: 95%;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#img-3{
+    background: url('/img/altamirabg.jpg') no-repeat;
+    background-size: cover;
+    height: 95%;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#img-4{
+    background: url('/img/urukabg.jpg');
+    background-size: cover;
+    height: 95%;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.logo-png{
+    height: 7%;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    transition: .5s ease;
+}
+
+.linea-img{
+    max-width: 60%;
+}
+
+.logo-img{
+    max-height: 20%;
+    max-width: 50%;
+}
+
+.main-section{
+    height: 75vh;
+}
+
+.main-img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle-png{
+    height: 10%;
+    width: 100%;
+}
+  
+
+.shadow{
+    -webkit-box-shadow: 10px 10px 38px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 38px -23px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 38px -23px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+/*{}*/
